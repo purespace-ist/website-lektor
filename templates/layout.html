@@ -3,18 +3,19 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>{{ this.title }} — {{ config.PROJECT.name }}</title>
+  <title>{{ config.PROJECT.name }} — {{ this.title }}</title>
   <link rel="shortcut icon" href="{{ '/static/favicon.svg'|url }}" type="image/svg"/>
   <link rel="stylesheet" href="{{ '/static/main.css'|url }}"/>
 </head>
 <body>
   <header>
     <nav aria-label="main navigation">
-      <a href="{{ '/'|url(this.alt) }}">
-        <img
+      <a href="{{ '/giris'|url(this.alt) }}">
+        <!--img
           src="{{ '/static/logo.svg'|url }}"
           alt="{{ bag('translate', this.alt, 'logo-alt') }}"
-          width="100" height="100"/>
+          width="100" height="100"/-->
+        purespace.ist
       </a>
       <ul>
         {% for slug in bag('menus', 'main-nav') %}
@@ -40,7 +41,7 @@
   </main>
   <footer>
     <small>
-      &copy; H. Turgut Uyar, 2021
+      &copy; 2020-2021 purespace.ist
     </small>
   </footer>
 </body>

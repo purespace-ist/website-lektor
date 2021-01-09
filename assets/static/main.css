@@ -5,7 +5,7 @@
   --color-primary: teal;
   --color-primary-contrast: white;
   --font-family:
-      Source Sans Pro,
+      PT Sans,
       system-ui,
       /* macOS 10.11-10.12 */ -apple-system,
       /* Windows 6+ */ "Segoe UI",
@@ -658,6 +658,10 @@ a {
   color: var(--color-link);
   text-decoration: none; }
 
+body {
+  background-image: url("/static/bg.jpg");
+  font-size: 1.25rem; }
+
 body > footer,
 body > header {
   padding: var(--space-m); }
@@ -668,10 +672,11 @@ body > main > * {
 
 nav ul {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  text-transform: lowercase; }
 
 nav.alternatives {
-  font-size: 0.85em; }
+  font-size: 0.8em; }
 
 @media (min-width: 769px) {
   nav ul {

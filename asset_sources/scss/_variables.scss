@@ -4,8 +4,8 @@ $grey: hsl(0, 0%, 50%);
 $blue: hsl(240, 100%, 50%);
 $teal: hsl(180, 100%, 25%);
 
-$sans-serif: "Source Sans Pro";
-$serif: "Source Serif Pro";
+$sans-serif: "PT Sans";
+$serif: "PT Serif";
 $monospace: "Source Code Pro";
 
 :root {
@@ -43,7 +43,7 @@ $monospace: "Source Code Pro";
       /* Windows emoji */ "Segoe UI Emoji",
       /* Windows emoji */ "Segoe UI Symbol",
       /* Linux emoji */ "Noto Color Emoji";
-  
+
   --width-content: 60ch;
 
   --space-xs: 0.25rem;

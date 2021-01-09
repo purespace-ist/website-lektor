@@ -3,6 +3,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-image: url("/static/bg.jpg");
+  font-size: 1.25rem;
+}
+
 body > footer,
 body > header {
   padding: var(--space-m);
@@ -16,10 +21,11 @@ body > main > * {
 nav ul {
   display: flex;
   flex-direction: column;
+  text-transform: lowercase;
 }
 
 nav.alternatives {
-  font-size: 0.85em;
+  font-size: 0.8em;
 }
 
 @media (min-width: 769px) {

@@ -1,7 +1,11 @@
 _slug: who-we-are
 ---
-title: Who We Are
+title: who we are
 ---
 body:
 
-<p>Information about this web site.</p>
+<ul>
+<li><a href="sima-uyar/">Şima Uyar</a></li>
+<li><a href="ufuk-senel/">Ufuk Şenel</a></li>
+<li><a href="ezgi-turker/">Ezgi Türker</a></li>
+</ul>

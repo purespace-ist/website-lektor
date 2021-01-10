@@ -1,5 +1,9 @@
-title: Biz Kimiz?
+title: biz kimiz?
 ---
 body:
 
-<p>Bu site hakkında bilgi.</p>
+<ul>
+<li><a href="sima-uyar/">Şima Uyar</a></li>
+<li><a href="ufuk-senel/">Ufuk Şenel</a></li>
+<li><a href="ezgi-turker/">Ezgi Türker</a></li>
+</ul>

@@ -13,3 +13,4 @@ url_prefix = /en/
 
 [packages]
 lektor-scsscompile = 1.3.0
+lektor-tinymce = 0.3

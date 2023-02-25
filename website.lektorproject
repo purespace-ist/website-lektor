@@ -1,5 +1,6 @@
 [project]
 name = purespace.ist
+included_assets = .nojekyll
 
 [alternatives.tr]
 name = Türkçe

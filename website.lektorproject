@@ -13,3 +13,8 @@ url_prefix = /en/
 
 [packages]
 lektor-tinymce = 0.4
+
+[servers.ghpages]
+name = GitHub Pages
+default = yes
+target = ghpages://purespace-ist/purespace-ist.github.io
